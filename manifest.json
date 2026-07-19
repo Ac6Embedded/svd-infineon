@@ -1,0 +1,400 @@
+{
+  "vendor": "Infineon",
+  "generated": "2026-07-19",
+  "sources": [
+    {
+      "name": "mtb-pdl-cat1",
+      "url": "https://github.com/Infineon/mtb-pdl-cat1",
+      "version": "4a5e192cc76f7fdc8abff42d8dab8e52e199e348",
+      "license": "mtb-pdl-cat1-LICENSE.txt",
+      "files": 17
+    },
+    {
+      "name": "mtb-pdl-cat2",
+      "url": "https://github.com/Infineon/mtb-pdl-cat2",
+      "version": "35f1714623cfea682d5e285af80d50416b4c7bbc",
+      "license": "mtb-pdl-cat2-LICENSE.txt",
+      "files": 20
+    },
+    {
+      "name": "mtb-xmclib-cat3",
+      "url": "https://github.com/Infineon/mtb-xmclib-cat3",
+      "version": "c24888699c6c5cfd6e5475be90d9703e43540d04",
+      "license": "mtb-xmclib-cat3-LICENSE.txt",
+      "files": 11
+    },
+    {
+      "name": "mtb-dsl-pse8xxgp",
+      "url": "https://github.com/Infineon/mtb-dsl-pse8xxgp",
+      "version": "c2793cf168c31420266648473122d78897c4faf9",
+      "license": "mtb-dsl-pse8xxgp-LICENSE.txt",
+      "files": 1
+    },
+    {
+      "name": "tc375-pac",
+      "url": "https://github.com/Infineon/tc375-pac",
+      "version": "d29acfe0975175cbad8930db0f85c2ef049e1477",
+      "license": "tc375-pac-LICENSE.txt",
+      "files": 1
+    }
+  ],
+  "files": [
+    {
+      "path": "AURIX/TC37XPD.svd",
+      "device": "TC37XPD",
+      "family": "AURIX",
+      "source": "tc375-pac",
+      "provenance": "pristine"
+    },
+    {
+      "path": "CCG/ccg6df_cfp.svd",
+      "device": "ccg6df_cfp",
+      "family": "CCG",
+      "source": "mtb-pdl-cat2",
+      "provenance": "pristine"
+    },
+    {
+      "path": "CCG/ccg7d.svd",
+      "device": "ccg7d",
+      "family": "CCG",
+      "source": "mtb-pdl-cat2",
+      "provenance": "pristine"
+    },
+    {
+      "path": "CCG/ccg7s.svd",
+      "device": "ccg7s",
+      "family": "CCG",
+      "source": "mtb-pdl-cat2",
+      "provenance": "pristine"
+    },
+    {
+      "path": "CYW/cyw20829.svd",
+      "device": "cyw20829",
+      "family": "CYW",
+      "source": "mtb-pdl-cat1",
+      "provenance": "pristine"
+    },
+    {
+      "path": "PAG2S/pag2s.svd",
+      "device": "pag2s",
+      "family": "PAG2S",
+      "source": "mtb-pdl-cat2",
+      "provenance": "pristine"
+    },
+    {
+      "path": "PMG1/pmg1b2.svd",
+      "device": "pmg1b2",
+      "family": "PMG1",
+      "source": "mtb-pdl-cat2",
+      "provenance": "pristine"
+    },
+    {
+      "path": "PMG1/pmg1s0.svd",
+      "device": "pmg1s0",
+      "family": "PMG1",
+      "source": "mtb-pdl-cat2",
+      "provenance": "pristine"
+    },
+    {
+      "path": "PMG1/pmg1s1.svd",
+      "device": "pmg1s1",
+      "family": "PMG1",
+      "source": "mtb-pdl-cat2",
+      "provenance": "pristine"
+    },
+    {
+      "path": "PMG1/pmg1s2.svd",
+      "device": "pmg1s2",
+      "family": "PMG1",
+      "source": "mtb-pdl-cat2",
+      "provenance": "pristine"
+    },
+    {
+      "path": "PMG1/pmg1s3.svd",
+      "device": "pmg1s3",
+      "family": "PMG1",
+      "source": "mtb-pdl-cat2",
+      "provenance": "pristine"
+    },
+    {
+      "path": "PSC3/psc3.svd",
+      "device": "psc3",
+      "family": "PSC3",
+      "source": "mtb-pdl-cat1",
+      "provenance": "pristine"
+    },
+    {
+      "path": "PSE84/pse84.svd",
+      "device": "pse84",
+      "family": "PSE84",
+      "source": "mtb-dsl-pse8xxgp",
+      "provenance": "pristine"
+    },
+    {
+      "path": "PSoC4/psoc4000s.svd",
+      "device": "psoc4000s",
+      "family": "PSoC4",
+      "source": "mtb-pdl-cat2",
+      "provenance": "pristine"
+    },
+    {
+      "path": "PSoC4/psoc4000t.svd",
+      "device": "psoc4000t",
+      "family": "PSoC4",
+      "source": "mtb-pdl-cat2",
+      "provenance": "pristine"
+    },
+    {
+      "path": "PSoC4/psoc4100s.svd",
+      "device": "psoc4100s",
+      "family": "PSoC4",
+      "source": "mtb-pdl-cat2",
+      "provenance": "pristine"
+    },
+    {
+      "path": "PSoC4/psoc4100smax.svd",
+      "device": "psoc4100smax",
+      "family": "PSoC4",
+      "source": "mtb-pdl-cat2",
+      "provenance": "pristine"
+    },
+    {
+      "path": "PSoC4/psoc4100sp.svd",
+      "device": "psoc4100sp",
+      "family": "PSoC4",
+      "source": "mtb-pdl-cat2",
+      "provenance": "pristine"
+    },
+    {
+      "path": "PSoC4/psoc4100sp256kb.svd",
+      "device": "psoc4100sp256kb",
+      "family": "PSoC4",
+      "source": "mtb-pdl-cat2",
+      "provenance": "pristine"
+    },
+    {
+      "path": "PSoC4/psoc4100tp.svd",
+      "device": "psoc4100tp",
+      "family": "PSoC4",
+      "source": "mtb-pdl-cat2",
+      "provenance": "pristine"
+    },
+    {
+      "path": "PSoC4/psoc4hv144k.svd",
+      "device": "psoc4hv144k",
+      "family": "PSoC4",
+      "source": "mtb-pdl-cat2",
+      "provenance": "pristine"
+    },
+    {
+      "path": "PSoC4/psoc4hvms128k.svd",
+      "device": "psoc4hvms128k",
+      "family": "PSoC4",
+      "source": "mtb-pdl-cat2",
+      "provenance": "pristine"
+    },
+    {
+      "path": "PSoC4/psoc4hvms64k.svd",
+      "device": "psoc4hvms64k",
+      "family": "PSoC4",
+      "source": "mtb-pdl-cat2",
+      "provenance": "pristine"
+    },
+    {
+      "path": "PSoC4/psoc4hvpaspm10.svd",
+      "device": "psoc4hvpaspm10",
+      "family": "PSoC4",
+      "source": "mtb-pdl-cat2",
+      "provenance": "pristine"
+    },
+    {
+      "path": "PSoC6/psoc6_01.svd",
+      "device": "psoc6_01",
+      "family": "PSoC6",
+      "source": "mtb-pdl-cat1",
+      "provenance": "pristine"
+    },
+    {
+      "path": "PSoC6/psoc6_02.svd",
+      "device": "psoc6_02",
+      "family": "PSoC6",
+      "source": "mtb-pdl-cat1",
+      "provenance": "pristine"
+    },
+    {
+      "path": "PSoC6/psoc6_03.svd",
+      "device": "psoc6_03",
+      "family": "PSoC6",
+      "source": "mtb-pdl-cat1",
+      "provenance": "pristine"
+    },
+    {
+      "path": "PSoC6/psoc6_04.svd",
+      "device": "psoc6_04",
+      "family": "PSoC6",
+      "source": "mtb-pdl-cat1",
+      "provenance": "pristine"
+    },
+    {
+      "path": "TRAVEO/tviibe1m.svd",
+      "device": "tviibe1m",
+      "family": "TRAVEO",
+      "source": "mtb-pdl-cat1",
+      "provenance": "pristine"
+    },
+    {
+      "path": "TRAVEO/tviibe2m.svd",
+      "device": "tviibe2m",
+      "family": "TRAVEO",
+      "source": "mtb-pdl-cat1",
+      "provenance": "pristine"
+    },
+    {
+      "path": "TRAVEO/tviibe4m.svd",
+      "device": "tviibe4m",
+      "family": "TRAVEO",
+      "source": "mtb-pdl-cat1",
+      "provenance": "pristine"
+    },
+    {
+      "path": "TRAVEO/tviibh16m.svd",
+      "device": "tviibh16m",
+      "family": "TRAVEO",
+      "source": "mtb-pdl-cat1",
+      "provenance": "pristine"
+    },
+    {
+      "path": "TRAVEO/tviic2d4m.svd",
+      "device": "tviic2d4m",
+      "family": "TRAVEO",
+      "source": "mtb-pdl-cat1",
+      "provenance": "pristine"
+    },
+    {
+      "path": "TRAVEO/tviic2d6m.svd",
+      "device": "tviic2d6m",
+      "family": "TRAVEO",
+      "source": "mtb-pdl-cat1",
+      "provenance": "pristine"
+    },
+    {
+      "path": "XMC1000/XMC1100.svd",
+      "device": "XMC1100",
+      "family": "XMC1000",
+      "source": "mtb-xmclib-cat3",
+      "provenance": "pristine"
+    },
+    {
+      "path": "XMC1000/XMC1200.svd",
+      "device": "XMC1200",
+      "family": "XMC1000",
+      "source": "mtb-xmclib-cat3",
+      "provenance": "pristine"
+    },
+    {
+      "path": "XMC1000/XMC1300.svd",
+      "device": "XMC1300",
+      "family": "XMC1000",
+      "source": "mtb-xmclib-cat3",
+      "provenance": "pristine"
+    },
+    {
+      "path": "XMC1000/XMC1400.svd",
+      "device": "XMC1400",
+      "family": "XMC1000",
+      "source": "mtb-xmclib-cat3",
+      "provenance": "pristine"
+    },
+    {
+      "path": "XMC4000/XMC4100.svd",
+      "device": "XMC4100",
+      "family": "XMC4000",
+      "source": "mtb-xmclib-cat3",
+      "provenance": "pristine"
+    },
+    {
+      "path": "XMC4000/XMC4200.svd",
+      "device": "XMC4200",
+      "family": "XMC4000",
+      "source": "mtb-xmclib-cat3",
+      "provenance": "pristine"
+    },
+    {
+      "path": "XMC4000/XMC4300.svd",
+      "device": "XMC4300",
+      "family": "XMC4000",
+      "source": "mtb-xmclib-cat3",
+      "provenance": "pristine"
+    },
+    {
+      "path": "XMC4000/XMC4400.svd",
+      "device": "XMC4400",
+      "family": "XMC4000",
+      "source": "mtb-xmclib-cat3",
+      "provenance": "pristine"
+    },
+    {
+      "path": "XMC4000/XMC4500.svd",
+      "device": "XMC4500",
+      "family": "XMC4000",
+      "source": "mtb-xmclib-cat3",
+      "provenance": "pristine"
+    },
+    {
+      "path": "XMC4000/XMC4700.svd",
+      "device": "XMC4700",
+      "family": "XMC4000",
+      "source": "mtb-xmclib-cat3",
+      "provenance": "pristine"
+    },
+    {
+      "path": "XMC4000/XMC4800.svd",
+      "device": "XMC4800",
+      "family": "XMC4000",
+      "source": "mtb-xmclib-cat3",
+      "provenance": "pristine"
+    },
+    {
+      "path": "XMC5000/xmc5100.svd",
+      "device": "xmc5100",
+      "family": "XMC5000",
+      "source": "mtb-pdl-cat1",
+      "provenance": "pristine"
+    },
+    {
+      "path": "XMC5000/xmc5200.svd",
+      "device": "xmc5200",
+      "family": "XMC5000",
+      "source": "mtb-pdl-cat1",
+      "provenance": "pristine"
+    },
+    {
+      "path": "XMC5000/xmc5300.svd",
+      "device": "xmc5300",
+      "family": "XMC5000",
+      "source": "mtb-pdl-cat1",
+      "provenance": "pristine"
+    },
+    {
+      "path": "XMC7000/cat1c4m.svd",
+      "device": "cat1c4m",
+      "family": "XMC7000",
+      "source": "mtb-pdl-cat1",
+      "provenance": "pristine"
+    },
+    {
+      "path": "XMC7000/cat1c8m.svd",
+      "device": "cat1c8m",
+      "family": "XMC7000",
+      "source": "mtb-pdl-cat1",
+      "provenance": "pristine"
+    }
+  ],
+  "stats": {
+    "total_files": 50,
+    "total_bytes": 89701275
+  },
+  "issues": [
+    "mtb-pdl-cat1: devices/COMPONENT_CAT1A/svd/fx3g2.svd failed validation, skipped"
+  ]
+}
