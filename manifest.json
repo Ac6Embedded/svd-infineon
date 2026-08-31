@@ -1,11 +1,11 @@
 {
   "vendor": "Infineon",
-  "generated": "2026-07-27",
+  "generated": "2026-08-31",
   "sources": [
     {
       "name": "mtb-pdl-cat1",
       "url": "https://github.com/Infineon/mtb-pdl-cat1",
-      "version": "4a5e192cc76f7fdc8abff42d8dab8e52e199e348",
+      "version": "7824cbb180850f74933aed2dbab139e47221ae2b",
       "license": "mtb-pdl-cat1-LICENSE.txt",
       "files": 17
     },
@@ -392,7 +392,7 @@
   ],
   "stats": {
     "total_files": 50,
-    "total_bytes": 89701275
+    "total_bytes": 89468993
   },
   "issues": [
     "mtb-pdl-cat1: devices/COMPONENT_CAT1A/svd/fx3g2.svd failed validation, skipped"
