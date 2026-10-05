@@ -1,6 +1,6 @@
 {
   "vendor": "Infineon",
-  "generated": "2026-08-31",
+  "generated": "2026-10-05",
   "sources": [
     {
       "name": "mtb-pdl-cat1",
@@ -26,7 +26,7 @@
     {
       "name": "mtb-dsl-pse8xxgp",
       "url": "https://github.com/Infineon/mtb-dsl-pse8xxgp",
-      "version": "71f8a1ad68a8f300f74571437a5a9af0af0247c6",
+      "version": "5813532f621267ba954d922964a97ce7a0bba5ad",
       "license": "mtb-dsl-pse8xxgp-LICENSE.txt",
       "files": 1
     },
