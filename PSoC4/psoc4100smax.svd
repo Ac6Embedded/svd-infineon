@@ -19340,7 +19340,7 @@ Monitors level at output pin m_ttcan_asct.
                   <name>LBCK</name>
                   <description>Loop Back Mode
 0= Reset value, Loop Back Mode is disabled
-1= Loop Back Mode is enabled (see Section 3.1.9, Test Modes)</description>
+1= Loop Back Mode is enabled (Test Modes)</description>
                   <bitRange>[4:4]</bitRange>
                 </field>
                 <field>
@@ -19410,7 +19410,7 @@ Actual Message RAM Watchdog Counter Value.</description>
                   <name>ASM</name>
                   <description>Restricted Operation Mode
 Bit ASM can only be set by the Host when both CCE and INIT are set to '1'. The bit can be reset by
-the Host at any time. For a description of the Restricted Operation Mode see Section 3.1.5.
+the Host at any time. For a description of the Restricted Operation Mode.
 0= Normal CAN operation
 1= Restricted Operation Mode active</description>
                   <bitRange>[2:2]</bitRange>
@@ -19485,7 +19485,7 @@ the Host at any time.
                   <name>TXP</name>
                   <description>Transmit Pause
 If this bit is set, the M_TTCAN pauses for two CAN bit times before starting the next transmission
-after itself has successfully transmitted a frame (see Section 3.5).
+after itself has successfully transmitted a frame.
 0= Transmit pause disabled
 1= Transmit pause enabled</description>
                   <bitRange>[14:14]</bitRange>
@@ -20529,7 +20529,7 @@ treated.
                 <field>
                   <name>FLSSA</name>
                   <description>Filter List Standard Start Address
-Start address of standard Message ID filter list (32-bit word address, see Figure 2).</description>
+Start address of standard Message ID filter list (32-bit word address).</description>
                   <bitRange>[15:2]</bitRange>
                 </field>
                 <field>
@@ -20551,7 +20551,7 @@ Start address of standard Message ID filter list (32-bit word address, see Figur
                 <field>
                   <name>FLESA</name>
                   <description>Filter List Extended Start Address
-Start address of extended Message ID filter list (32-bit word address, see Figure 2).</description>
+Start address of extended Message ID filter list (32-bit word address).</description>
                   <bitRange>[15:2]</bitRange>
                 </field>
                 <field>
@@ -20670,7 +20670,7 @@ reset will clear the register.
                 <field>
                   <name>F0SA</name>
                   <description>Rx FIFO 0 Start Address
-Start address of Rx FIFO 0 in Message RAM (32-bit word address, see Figure 2).</description>
+Start address of Rx FIFO 0 in Message RAM (32-bit word address).</description>
                   <bitRange>[15:2]</bitRange>
                 </field>
                 <field>
@@ -20693,7 +20693,7 @@ The Rx FIFO 0 elements are indexed from 0 to F0S-1</description>
                 <field>
                   <name>F0OM</name>
                   <description>FIFO 0 Operation Mode
-FIFO 0 can be operated in blocking or in overwrite mode (see Section 3.4.2).
+FIFO 0 can be operated in blocking or in overwrite mode.
 0= FIFO 0 blocking mode
 1= FIFO 0 overwrite mode</description>
                   <bitRange>[31:31]</bitRange>
@@ -20791,7 +20791,7 @@ Also used to reference debug messages A,B,C.</description>
                 <field>
                   <name>F1SA</name>
                   <description>Rx FIFO 1 Start Address
-Start address of Rx FIFO 1 in Message RAM (32-bit word address, see Figure 2).</description>
+Start address of Rx FIFO 1 in Message RAM (32-bit word address).</description>
                   <bitRange>[15:2]</bitRange>
                 </field>
                 <field>
@@ -20814,7 +20814,7 @@ The Rx FIFO 1 elements are indexed from 0 to F1S - 1</description>
                 <field>
                   <name>F1OM</name>
                   <description>FIFO 1 Operation Mode
-FIFO 1 can be operated in blocking or in overwrite mode (see Section 3.4.2).
+FIFO 1 can be operated in blocking or in overwrite mode.
 0= FIFO 1 blocking mode
 1= FIFO 1 overwrite mode</description>
                   <bitRange>[31:31]</bitRange>
@@ -20954,7 +20954,7 @@ After the Host has read a message or a sequence of messages from Rx FIFO 1 it ha
                 <field>
                   <name>TBSA</name>
                   <description>Tx Buffers Start Address
-Start address of Tx Buffers section in Message RAM (32-bit word address, see Figure 2).</description>
+Start address of Tx Buffers section in Message RAM (32-bit word address).</description>
                   <bitRange>[15:2]</bitRange>
                 </field>
                 <field>
@@ -21056,7 +21056,7 @@ Each Tx Buffer has its own Transmission Request Pending bit. The bits are set vi
 The bits are reset after a requested transmission has completed or has been cancelled via register
 TXBCR.
 TXBRP bits are set only for those Tx Buffers configured via TXBC. After a TXBRP bit has been set,
-a Tx scan (see Section 3.5, Tx Handling) is started to check for the pending Tx request with the
+a Tx scan (Tx Handling) is started to check for the pending Tx request with the
 highest priority (Tx Buffer with lowest Message ID).
 A cancellation request resets the corresponding transmission request pending bit of register
 TXBRP. In case a transmission has already been started when a cancellation is requested, this is
@@ -21191,7 +21191,7 @@ Each Tx Buffer has its own Cancellation Finished Interrupt Enable bit.
                 <field>
                   <name>EFSA</name>
                   <description>Event FIFO Start Address
-Start address of Tx Event FIFO in Message RAM (32-bit word address, see Figure 2).</description>
+Start address of Tx Event FIFO in Message RAM (32-bit word address).</description>
                   <bitRange>[15:2]</bitRange>
                 </field>
                 <field>
@@ -21289,7 +21289,7 @@ Index TXEFS.EFGI to EFAI + 1 and update the Event FIFO Fill Level TXEFS.EFFL.</d
                 <field>
                   <name>TMSA</name>
                   <description>Trigger Memory Start Address
-Start address of Trigger Memory in Message RAM (32-bit word address, see Figure 2).</description>
+Start address of Trigger Memory in Message RAM (32-bit word address).</description>
                   <bitRange>[15:2]</bitRange>
                 </field>
                 <field>
@@ -21540,7 +21540,7 @@ global) equals TTTMK.TM, independent of the synchronization state.
                 <field>
                   <name>TTIE</name>
                   <description>Trigger Time Mark Interrupt Pulse Enable
-External time mark events are configured by trigger memory element TMEX (see Section 2.4.7). A
+External time mark events are configured by trigger memory element TMEX. A
 trigger time mark interrupt pulse is generated when the trigger memory element becomes active,
 and the M_TTCAN is in synchronization state In_Schedule or In_Gap.
 0= Trigger Time Mark Interrupt output m_ttcan_tmp disabled
@@ -21582,7 +21582,7 @@ external event-synchronized time-triggered operation (TTOCF.GEN = '1')
                   <name>ESCN</name>
                   <description>External Synchronization Control
 If enabled the M_TTCAN synchronizes its cycle time phase to an external event signaled by a rising
-edge at pin m_ttcan_evt (see Section 4.11).
+edge at pin m_ttcan_evt.
 0= External synchronization disabled
 1= External synchronization enabled</description>
                   <bitRange>[13:13]</bitRange>
@@ -21612,7 +21612,7 @@ synchronized into the CAN clock domain.
                 <field>
                   <name>CTP</name>
                   <description>Cycle Time Target Phase
-CTP is write-protected while TTOCN.ESCN or TTOST.SPL are set (see Section 4.11).
+CTP is write-protected while TTOCN.ESCN or TTOST.SPL are set.
 0x0000-FFFF Defines target value of cycle time when a rising edge of m_ttcan_evt is expected</description>
                   <bitRange>[31:16]</bitRange>
                 </field>
@@ -21707,7 +21707,7 @@ of the synchronization state.
                 <field>
                   <name>TTMI</name>
                   <description>Trigger Time Mark Event Internal
-Internal time mark events are configured by trigger memory element TMIN (see Section 2.4.7). Set
+Internal time mark events are configured by trigger memory element TMIN. Set
 when the trigger memory element becomes active, and the M_TTCAN is in synchronization state
 In_Gap or In_Schedule.
 0= Time mark not reached
@@ -22242,7 +22242,7 @@ next basic cycle.</description>
                   <description>Schedule Phase Lock
 The bit is valid only when external synchronization is enabled (TTOCN.ESCN = '1'). In this case it
 signals that the difference between cycle time configured by TTGTP.CTP and the cycle time at the
-rising edge at pin m_ttcan_evt is less or equal 9 NTU (see Section 4.11).
+rising edge at pin m_ttcan_evt is less or equal 9 NTU.
 0= Phase outside range
 1= Phase inside range</description>
                   <bitRange>[31:31]</bitRange>
@@ -22275,7 +22275,7 @@ rising edge at pin m_ttcan_evt is less or equal 9 NTU (see Section 4.11).
                 <field>
                   <name>LT</name>
                   <description>Local Time
-Non-fractional part of local time, incremented once each local NTU (see Section 4.5).
+Non-fractional part of local time, incremented once each local NTU.
 0x0000-FFFF Local time value of TTCAN node</description>
                   <bitRange>[15:0]</bitRange>
                   <access>read-only</access>
@@ -22283,7 +22283,7 @@ Non-fractional part of local time, incremented once each local NTU (see Section 
                 <field>
                   <name>GT</name>
                   <description>Global Time
-Non-fractional part of the sum of the node's local time and its local offset (see Section 4.5).
+Non-fractional part of the sum of the node's local time and its local offset.
 0x0000-FFFF Global time value of TTCAN network</description>
                   <bitRange>[31:16]</bitRange>
                   <access>read-only</access>
@@ -22301,7 +22301,7 @@ Non-fractional part of the sum of the node's local time and its local offset (se
                 <field>
                   <name>CT</name>
                   <description>Cycle Time
-Non-fractional part of the difference of the node's local time and Ref_Mark (see Section 4.5).
+Non-fractional part of the difference of the node's local time and Ref_Mark.
 0x0000-FFFF Cycle time value of TTCAN Basic Cycle</description>
                   <bitRange>[15:0]</bitRange>
                   <access>read-only</access>

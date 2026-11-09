@@ -2486,10 +2486,7 @@ Note: The upper value on Voh is limited to Vddio - 400mV</description>
               </field>
               <field>
                 <name>PORT_GPIO_DVC_VTRIP_SEL</name>
-                <description>There is no 1.2V supply range for GPIO_DVC developed for NEO
-                       For GPIO_DVC:
-vtrip_sel = 0 =&gt; CMOS mode
-vtrip_sel = 1 =&gt; TTL mode</description>
+                <description>N/A</description>
                 <bitRange>[24:24]</bitRange>
               </field>
             </fields>
@@ -2605,10 +2602,7 @@ vtrip_sel = 1 =&gt; TTL mode</description>
               </field>
               <field>
                 <name>PORT_I2C_DVC_VTRIP_SEL</name>
-                <description>There is no 1.2V supply range for I2C_DVC developed for NEO
-                            For I2C_DVC:
-                vtrip_sel = 0 =&gt; CMOS mode
-                vtrip_sel = 1 =&gt; TTL mode</description>
+                <description>N/A</description>
                 <bitRange>[24:24]</bitRange>
               </field>
             </fields>
